@@ -22,3 +22,6 @@ def main():
     emp.set_firstname(input("Enter first name: "))
     emp.set_lastname(input("Enter last name: "))
     print(emp.get_fullname())
+    
+if __name__ == "__main__":
+    main()
